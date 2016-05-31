@@ -20,6 +20,10 @@ namespace sefrewr
 			// and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
+
+
+			Test
+
 			button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
 		}
 	}
